@@ -1,9 +1,24 @@
 /* Add styling for your page here */
-
 .App {
-
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 1rem;
+}
+.bakery-container {
+  flex: 1;
+  margin-right: 2rem;
 }
 
-.BakeryItem {
-  
+.cart-container {
+  width: 350px;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
 }
